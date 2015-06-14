@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751751B2E0FE5000253AB /* AppDelegate.swift */; };
+		B22751781B2E0FE5000253AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751771B2E0FE5000253AB /* ViewController.swift */; };
+		B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22751791B2E0FE5000253AB /* Main.storyboard */; };
+		B227517D1B2E0FE5000253AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B227517C1B2E0FE5000253AB /* Images.xcassets */; };
+		B227518C1B2E0FE5000253AB /* Hungry_YetiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227518B1B2E0FE5000253AB /* Hungry_YetiTests.swift */; };
+		B22751981B2E10BB000253AB /* iphone6plus.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751971B2E10BB000253AB /* iphone6plus.png */; };
+		B227519A1B2E10F7000253AB /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751991B2E10F7000253AB /* iphone6.png */; };
+		B227519C1B2E1131000253AB /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = B227519B1B2E1131000253AB /* iphone5.png */; };
+		B227519E1B2E138A000253AB /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = B227519D1B2E138A000253AB /* iphone4.png */; };
+		B22751A01B2E13D3000253AB /* iphone3.png in Resources */ = {isa = PBXBuildFile; fileRef = B227519F1B2E13D3000253AB /* iphone3.png */; };
+		B22751A81B2E187A000253AB /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A11B2E187A000253AB /* Icon-60.png */; };
+		B22751A91B2E187A000253AB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A21B2E187A000253AB /* Icon-72.png */; };
+		B22751AA1B2E187A000253AB /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A31B2E187A000253AB /* Icon-72@2x.png */; };
+		B22751AB1B2E187A000253AB /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A41B2E187A000253AB /* Icon-Small-50.png */; };
+		B22751AC1B2E187A000253AB /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */; };
+		B22751AD1B2E187A000253AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A61B2E187A000253AB /* Icon.png */; };
+		B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A71B2E187A000253AB /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B22751861B2E0FE5000253AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B22751681B2E0FE5000253AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B227516F1B2E0FE5000253AB;
+			remoteInfo = "Hungry Yeti";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B22751701B2E0FE5000253AB /* Hungry Yeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Yeti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22751741B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22751751B2E0FE5000253AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22751771B2E0FE5000253AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B227517A1B2E0FE5000253AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B227517C1B2E0FE5000253AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B22751851B2E0FE5000253AB /* Hungry YetiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry YetiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B227518A1B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B227518B1B2E0FE5000253AB /* Hungry_YetiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_YetiTests.swift; sourceTree = "<group>"; };
+		B22751971B2E10BB000253AB /* iphone6plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone6plus.png; path = ../../iphone6plus.png; sourceTree = "<group>"; };
+		B22751991B2E10F7000253AB /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone6.png; path = ../../iphone6.png; sourceTree = "<group>"; };
+		B227519B1B2E1131000253AB /* iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone5.png; path = ../../iphone5.png; sourceTree = "<group>"; };
+		B227519D1B2E138A000253AB /* iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4.png; path = ../../iphone4.png; sourceTree = "<group>"; };
+		B227519F1B2E13D3000253AB /* iphone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone3.png; path = ../../iphone3.png; sourceTree = "<group>"; };
+		B22751A11B2E187A000253AB /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "../../icons/Icon-60.png"; sourceTree = "<group>"; };
+		B22751A21B2E187A000253AB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../icons/Icon-72.png"; sourceTree = "<group>"; };
+		B22751A31B2E187A000253AB /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../../icons/Icon-72@2x.png"; sourceTree = "<group>"; };
+		B22751A41B2E187A000253AB /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../../icons/Icon-Small-50.png"; sourceTree = "<group>"; };
+		B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "../../icons/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		B22751A61B2E187A000253AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../icons/Icon.png; sourceTree = "<group>"; };
+		B22751A71B2E187A000253AB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../icons/Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B227516D1B2E0FE5000253AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22751821B2E0FE5000253AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B22751671B2E0FE5000253AB = {
+			isa = PBXGroup;
+			children = (
+				B22751721B2E0FE5000253AB /* Hungry Yeti */,
+				B22751881B2E0FE5000253AB /* Hungry YetiTests */,
+				B22751711B2E0FE5000253AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B22751711B2E0FE5000253AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22751701B2E0FE5000253AB /* Hungry Yeti.app */,
+				B22751851B2E0FE5000253AB /* Hungry YetiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22751721B2E0FE5000253AB /* Hungry Yeti */ = {
+			isa = PBXGroup;
+			children = (
+				B22751A11B2E187A000253AB /* Icon-60.png */,
+				B22751A21B2E187A000253AB /* Icon-72.png */,
+				B22751A31B2E187A000253AB /* Icon-72@2x.png */,
+				B22751A41B2E187A000253AB /* Icon-Small-50.png */,
+				B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */,
+				B22751A61B2E187A000253AB /* Icon.png */,
+				B22751A71B2E187A000253AB /* Icon@2x.png */,
+				B227519F1B2E13D3000253AB /* iphone3.png */,
+				B227519D1B2E138A000253AB /* iphone4.png */,
+				B227519B1B2E1131000253AB /* iphone5.png */,
+				B22751991B2E10F7000253AB /* iphone6.png */,
+				B22751971B2E10BB000253AB /* iphone6plus.png */,
+				B22751751B2E0FE5000253AB /* AppDelegate.swift */,
+				B22751771B2E0FE5000253AB /* ViewController.swift */,
+				B22751791B2E0FE5000253AB /* Main.storyboard */,
+				B227517C1B2E0FE5000253AB /* Images.xcassets */,
+				B22751731B2E0FE5000253AB /* Supporting Files */,
+			);
+			path = "Hungry Yeti";
+			sourceTree = "<group>";
+		};
+		B22751731B2E0FE5000253AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22751741B2E0FE5000253AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B22751881B2E0FE5000253AB /* Hungry YetiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B227518B1B2E0FE5000253AB /* Hungry_YetiTests.swift */,
+				B22751891B2E0FE5000253AB /* Supporting Files */,
+			);
+			path = "Hungry YetiTests";
+			sourceTree = "<group>";
+		};
+		B22751891B2E0FE5000253AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B227518A1B2E0FE5000253AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B227516F1B2E0FE5000253AB /* Hungry Yeti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B227518F1B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry Yeti" */;
+			buildPhases = (
+				B227516C1B2E0FE5000253AB /* Sources */,
+				B227516D1B2E0FE5000253AB /* Frameworks */,
+				B227516E1B2E0FE5000253AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hungry Yeti";
+			productName = "Hungry Yeti";
+			productReference = B22751701B2E0FE5000253AB /* Hungry Yeti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B22751841B2E0FE5000253AB /* Hungry YetiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22751921B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry YetiTests" */;
+			buildPhases = (
+				B22751811B2E0FE5000253AB /* Sources */,
+				B22751821B2E0FE5000253AB /* Frameworks */,
+				B22751831B2E0FE5000253AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22751871B2E0FE5000253AB /* PBXTargetDependency */,
+			);
+			name = "Hungry YetiTests";
+			productName = "Hungry YetiTests";
+			productReference = B22751851B2E0FE5000253AB /* Hungry YetiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B22751681B2E0FE5000253AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = eightAM;
+				TargetAttributes = {
+					B227516F1B2E0FE5000253AB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B22751841B2E0FE5000253AB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B227516F1B2E0FE5000253AB;
+					};
+				};
+			};
+			buildConfigurationList = B227516B1B2E0FE5000253AB /* Build configuration list for PBXProject "Hungry Yeti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B22751671B2E0FE5000253AB;
+			productRefGroup = B22751711B2E0FE5000253AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B227516F1B2E0FE5000253AB /* Hungry Yeti */,
+				B22751841B2E0FE5000253AB /* Hungry YetiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B227516E1B2E0FE5000253AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */,
+				B227519A1B2E10F7000253AB /* iphone6.png in Resources */,
+				B22751AB1B2E187A000253AB /* Icon-Small-50.png in Resources */,
+				B22751AA1B2E187A000253AB /* Icon-72@2x.png in Resources */,
+				B22751A91B2E187A000253AB /* Icon-72.png in Resources */,
+				B22751A81B2E187A000253AB /* Icon-60.png in Resources */,
+				B22751AC1B2E187A000253AB /* Icon-Small-50@2x.png in Resources */,
+				B22751AD1B2E187A000253AB /* Icon.png in Resources */,
+				B227517D1B2E0FE5000253AB /* Images.xcassets in Resources */,
+				B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */,
+				B22751A01B2E13D3000253AB /* iphone3.png in Resources */,
+				B227519E1B2E138A000253AB /* iphone4.png in Resources */,
+				B227519C1B2E1131000253AB /* iphone5.png in Resources */,
+				B22751981B2E10BB000253AB /* iphone6plus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22751831B2E0FE5000253AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B227516C1B2E0FE5000253AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22751781B2E0FE5000253AB /* ViewController.swift in Sources */,
+				B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22751811B2E0FE5000253AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B227518C1B2E0FE5000253AB /* Hungry_YetiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B22751871B2E0FE5000253AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B227516F1B2E0FE5000253AB /* Hungry Yeti */;
+			targetProxy = B22751861B2E0FE5000253AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B22751791B2E0FE5000253AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B227517A1B2E0FE5000253AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B227518D1B2E0FE5000253AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B227518E1B2E0FE5000253AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B22751901B2E0FE5000253AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B22751911B2E0FE5000253AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B22751931B2E0FE5000253AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hungry YetiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry Yeti.app/Hungry Yeti";
+			};
+			name = Debug;
+		};
+		B22751941B2E0FE5000253AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hungry YetiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry Yeti.app/Hungry Yeti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B227516B1B2E0FE5000253AB /* Build configuration list for PBXProject "Hungry Yeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B227518D1B2E0FE5000253AB /* Debug */,
+				B227518E1B2E0FE5000253AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B227518F1B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry Yeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22751901B2E0FE5000253AB /* Debug */,
+				B22751911B2E0FE5000253AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B22751921B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry YetiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22751931B2E0FE5000253AB /* Debug */,
+				B22751941B2E0FE5000253AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B22751681B2E0FE5000253AB /* Project object */;
+}
