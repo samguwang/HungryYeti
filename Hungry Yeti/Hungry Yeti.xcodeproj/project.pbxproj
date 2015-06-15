@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024FD6911B2F594E009C8505 /* eatlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 024FD6901B2F594E009C8505 /* eatlogo.png */; };
+		027529B61B2F548900D5E487 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 027529B51B2F548900D5E487 /* Untitled-1.png */; };
 		B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751751B2E0FE5000253AB /* AppDelegate.swift */; };
 		B22751781B2E0FE5000253AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751771B2E0FE5000253AB /* ViewController.swift */; };
 		B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22751791B2E0FE5000253AB /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024FD6901B2F594E009C8505 /* eatlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eatlogo.png; path = ../../eatlogo.png; sourceTree = "<group>"; };
+		027529B51B2F548900D5E487 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-1.png"; path = "../../../../Downloads/Untitled-1.png"; sourceTree = "<group>"; };
 		B22751701B2E0FE5000253AB /* Hungry Yeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Yeti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22751741B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22751751B2E0FE5000253AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		B22751721B2E0FE5000253AB /* Hungry Yeti */ = {
 			isa = PBXGroup;
 			children = (
+				027529B51B2F548900D5E487 /* Untitled-1.png */,
+				024FD6901B2F594E009C8505 /* eatlogo.png */,
 				B22751A11B2E187A000253AB /* Icon-60.png */,
 				B22751A21B2E187A000253AB /* Icon-72.png */,
 				B22751A31B2E187A000253AB /* Icon-72@2x.png */,
@@ -194,6 +200,7 @@
 				TargetAttributes = {
 					B227516F1B2E0FE5000253AB = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 399CTWJVJD;
 					};
 					B22751841B2E0FE5000253AB = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -231,8 +238,10 @@
 				B22751AA1B2E187A000253AB /* Icon-72@2x.png in Resources */,
 				B22751A91B2E187A000253AB /* Icon-72.png in Resources */,
 				B22751A81B2E187A000253AB /* Icon-60.png in Resources */,
+				027529B61B2F548900D5E487 /* Untitled-1.png in Resources */,
 				B22751AC1B2E187A000253AB /* Icon-Small-50@2x.png in Resources */,
 				B22751AD1B2E187A000253AB /* Icon.png in Resources */,
+				024FD6911B2F594E009C8505 /* eatlogo.png in Resources */,
 				B227517D1B2E0FE5000253AB /* Images.xcassets in Resources */,
 				B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */,
 				B22751A01B2E13D3000253AB /* iphone3.png in Resources */,
@@ -377,10 +386,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -389,10 +401,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -449,6 +464,7 @@
 				B22751911B2E0FE5000253AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B22751921B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry YetiTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +473,7 @@
 				B22751941B2E0FE5000253AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
