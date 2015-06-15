@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		024FD6911B2F594E009C8505 /* eatlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 024FD6901B2F594E009C8505 /* eatlogo.png */; };
-		027529B61B2F548900D5E487 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 027529B51B2F548900D5E487 /* Untitled-1.png */; };
 		B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751751B2E0FE5000253AB /* AppDelegate.swift */; };
 		B22751781B2E0FE5000253AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751771B2E0FE5000253AB /* ViewController.swift */; };
 		B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22751791B2E0FE5000253AB /* Main.storyboard */; };
@@ -16,9 +15,6 @@
 		B227518C1B2E0FE5000253AB /* Hungry_YetiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227518B1B2E0FE5000253AB /* Hungry_YetiTests.swift */; };
 		B22751981B2E10BB000253AB /* iphone6plus.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751971B2E10BB000253AB /* iphone6plus.png */; };
 		B227519A1B2E10F7000253AB /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751991B2E10F7000253AB /* iphone6.png */; };
-		B227519C1B2E1131000253AB /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = B227519B1B2E1131000253AB /* iphone5.png */; };
-		B227519E1B2E138A000253AB /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = B227519D1B2E138A000253AB /* iphone4.png */; };
-		B22751A01B2E13D3000253AB /* iphone3.png in Resources */ = {isa = PBXBuildFile; fileRef = B227519F1B2E13D3000253AB /* iphone3.png */; };
 		B22751A81B2E187A000253AB /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A11B2E187A000253AB /* Icon-60.png */; };
 		B22751A91B2E187A000253AB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A21B2E187A000253AB /* Icon-72.png */; };
 		B22751AA1B2E187A000253AB /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A31B2E187A000253AB /* Icon-72@2x.png */; };
@@ -26,6 +22,10 @@
 		B22751AC1B2E187A000253AB /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */; };
 		B22751AD1B2E187A000253AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A61B2E187A000253AB /* Icon.png */; };
 		B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A71B2E187A000253AB /* Icon@2x.png */; };
+		B25955F01B2F8EF800857FA0 /* iphone3.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955ED1B2F8EF800857FA0 /* iphone3.png */; };
+		B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EE1B2F8EF800857FA0 /* iphone4.png */; };
+		B25955F21B2F8EF800857FA0 /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EF1B2F8EF800857FA0 /* iphone5.png */; };
+		B25955F41B2F928900857FA0 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955F31B2F928900857FA0 /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,21 +40,17 @@
 
 /* Begin PBXFileReference section */
 		024FD6901B2F594E009C8505 /* eatlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eatlogo.png; path = ../../eatlogo.png; sourceTree = "<group>"; };
-		027529B51B2F548900D5E487 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-1.png"; path = "../../../../Downloads/Untitled-1.png"; sourceTree = "<group>"; };
-		B22751701B2E0FE5000253AB /* Hungry Yeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Yeti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22751701B2E0FE5000253AB /* hungryyeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hungryyeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22751741B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22751751B2E0FE5000253AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B22751771B2E0FE5000253AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B227517A1B2E0FE5000253AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B227517C1B2E0FE5000253AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B22751851B2E0FE5000253AB /* Hungry YetiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry YetiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22751851B2E0FE5000253AB /* hungryyetiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hungryyetiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B227518A1B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B227518B1B2E0FE5000253AB /* Hungry_YetiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_YetiTests.swift; sourceTree = "<group>"; };
 		B22751971B2E10BB000253AB /* iphone6plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone6plus.png; path = ../../iphone6plus.png; sourceTree = "<group>"; };
 		B22751991B2E10F7000253AB /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone6.png; path = ../../iphone6.png; sourceTree = "<group>"; };
-		B227519B1B2E1131000253AB /* iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone5.png; path = ../../iphone5.png; sourceTree = "<group>"; };
-		B227519D1B2E138A000253AB /* iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4.png; path = ../../iphone4.png; sourceTree = "<group>"; };
-		B227519F1B2E13D3000253AB /* iphone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone3.png; path = ../../iphone3.png; sourceTree = "<group>"; };
 		B22751A11B2E187A000253AB /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "../../icons/Icon-60.png"; sourceTree = "<group>"; };
 		B22751A21B2E187A000253AB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../icons/Icon-72.png"; sourceTree = "<group>"; };
 		B22751A31B2E187A000253AB /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../../icons/Icon-72@2x.png"; sourceTree = "<group>"; };
@@ -62,6 +58,10 @@
 		B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "../../icons/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
 		B22751A61B2E187A000253AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../icons/Icon.png; sourceTree = "<group>"; };
 		B22751A71B2E187A000253AB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../icons/Icon@2x.png"; sourceTree = "<group>"; };
+		B25955ED1B2F8EF800857FA0 /* iphone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone3.png; path = ../../iphone3.png; sourceTree = "<group>"; };
+		B25955EE1B2F8EF800857FA0 /* iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4.png; path = ../../iphone4.png; sourceTree = "<group>"; };
+		B25955EF1B2F8EF800857FA0 /* iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone5.png; path = ../../iphone5.png; sourceTree = "<group>"; };
+		B25955F31B2F928900857FA0 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 		B22751711B2E0FE5000253AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B22751701B2E0FE5000253AB /* Hungry Yeti.app */,
-				B22751851B2E0FE5000253AB /* Hungry YetiTests.xctest */,
+				B22751701B2E0FE5000253AB /* hungryyeti.app */,
+				B22751851B2E0FE5000253AB /* hungryyetiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +103,10 @@
 		B22751721B2E0FE5000253AB /* Hungry Yeti */ = {
 			isa = PBXGroup;
 			children = (
-				027529B51B2F548900D5E487 /* Untitled-1.png */,
+				B25955F31B2F928900857FA0 /* arrow.png */,
+				B25955ED1B2F8EF800857FA0 /* iphone3.png */,
+				B25955EE1B2F8EF800857FA0 /* iphone4.png */,
+				B25955EF1B2F8EF800857FA0 /* iphone5.png */,
 				024FD6901B2F594E009C8505 /* eatlogo.png */,
 				B22751A11B2E187A000253AB /* Icon-60.png */,
 				B22751A21B2E187A000253AB /* Icon-72.png */,
@@ -112,9 +115,6 @@
 				B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */,
 				B22751A61B2E187A000253AB /* Icon.png */,
 				B22751A71B2E187A000253AB /* Icon@2x.png */,
-				B227519F1B2E13D3000253AB /* iphone3.png */,
-				B227519D1B2E138A000253AB /* iphone4.png */,
-				B227519B1B2E1131000253AB /* iphone5.png */,
 				B22751991B2E10F7000253AB /* iphone6.png */,
 				B22751971B2E10BB000253AB /* iphone6plus.png */,
 				B22751751B2E0FE5000253AB /* AppDelegate.swift */,
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B227516F1B2E0FE5000253AB /* Hungry Yeti */ = {
+		B227516F1B2E0FE5000253AB /* hungryyeti */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B227518F1B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry Yeti" */;
+			buildConfigurationList = B227518F1B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "hungryyeti" */;
 			buildPhases = (
 				B227516C1B2E0FE5000253AB /* Sources */,
 				B227516D1B2E0FE5000253AB /* Frameworks */,
@@ -166,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = "Hungry Yeti";
+			name = hungryyeti;
 			productName = "Hungry Yeti";
-			productReference = B22751701B2E0FE5000253AB /* Hungry Yeti.app */;
+			productReference = B22751701B2E0FE5000253AB /* hungryyeti.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B22751841B2E0FE5000253AB /* Hungry YetiTests */ = {
+		B22751841B2E0FE5000253AB /* hungryyetiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B22751921B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry YetiTests" */;
+			buildConfigurationList = B22751921B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "hungryyetiTests" */;
 			buildPhases = (
 				B22751811B2E0FE5000253AB /* Sources */,
 				B22751821B2E0FE5000253AB /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				B22751871B2E0FE5000253AB /* PBXTargetDependency */,
 			);
-			name = "Hungry YetiTests";
+			name = hungryyetiTests;
 			productName = "Hungry YetiTests";
-			productReference = B22751851B2E0FE5000253AB /* Hungry YetiTests.xctest */;
+			productReference = B22751851B2E0FE5000253AB /* hungryyetiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B227516B1B2E0FE5000253AB /* Build configuration list for PBXProject "Hungry Yeti" */;
+			buildConfigurationList = B227516B1B2E0FE5000253AB /* Build configuration list for PBXProject "hungryyeti" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B227516F1B2E0FE5000253AB /* Hungry Yeti */,
-				B22751841B2E0FE5000253AB /* Hungry YetiTests */,
+				B227516F1B2E0FE5000253AB /* hungryyeti */,
+				B22751841B2E0FE5000253AB /* hungryyetiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,15 +238,15 @@
 				B22751AA1B2E187A000253AB /* Icon-72@2x.png in Resources */,
 				B22751A91B2E187A000253AB /* Icon-72.png in Resources */,
 				B22751A81B2E187A000253AB /* Icon-60.png in Resources */,
-				027529B61B2F548900D5E487 /* Untitled-1.png in Resources */,
 				B22751AC1B2E187A000253AB /* Icon-Small-50@2x.png in Resources */,
+				B25955F41B2F928900857FA0 /* arrow.png in Resources */,
 				B22751AD1B2E187A000253AB /* Icon.png in Resources */,
 				024FD6911B2F594E009C8505 /* eatlogo.png in Resources */,
 				B227517D1B2E0FE5000253AB /* Images.xcassets in Resources */,
 				B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */,
-				B22751A01B2E13D3000253AB /* iphone3.png in Resources */,
-				B227519E1B2E138A000253AB /* iphone4.png in Resources */,
-				B227519C1B2E1131000253AB /* iphone5.png in Resources */,
+				B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */,
+				B25955F01B2F8EF800857FA0 /* iphone3.png in Resources */,
+				B25955F21B2F8EF800857FA0 /* iphone5.png in Resources */,
 				B22751981B2E10BB000253AB /* iphone6plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +283,7 @@
 /* Begin PBXTargetDependency section */
 		B22751871B2E0FE5000253AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B227516F1B2E0FE5000253AB /* Hungry Yeti */;
+			target = B227516F1B2E0FE5000253AB /* hungryyeti */;
 			targetProxy = B22751861B2E0FE5000253AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -391,7 +391,7 @@
 				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = hungryyeti;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -406,7 +406,7 @@
 				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = hungryyeti;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -425,7 +425,7 @@
 				);
 				INFOPLIST_FILE = "Hungry YetiTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = hungryyetiTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry Yeti.app/Hungry Yeti";
 			};
 			name = Debug;
@@ -440,7 +440,7 @@
 				);
 				INFOPLIST_FILE = "Hungry YetiTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = hungryyetiTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry Yeti.app/Hungry Yeti";
 			};
 			name = Release;
@@ -448,7 +448,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B227516B1B2E0FE5000253AB /* Build configuration list for PBXProject "Hungry Yeti" */ = {
+		B227516B1B2E0FE5000253AB /* Build configuration list for PBXProject "hungryyeti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B227518D1B2E0FE5000253AB /* Debug */,
@@ -457,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B227518F1B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry Yeti" */ = {
+		B227518F1B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "hungryyeti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B22751901B2E0FE5000253AB /* Debug */,
@@ -466,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B22751921B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "Hungry YetiTests" */ = {
+		B22751921B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "hungryyetiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B22751931B2E0FE5000253AB /* Debug */,
