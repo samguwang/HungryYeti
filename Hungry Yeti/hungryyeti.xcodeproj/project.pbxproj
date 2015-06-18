@@ -11,9 +11,9 @@
 		02EED64D1B32F8A2009E0572 /* yelp_logo_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64C1B32F8A2009E0572 /* yelp_logo_100x50.png */; };
 		02EED64F1B32F940009E0572 /* Powered_By_Yelp_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */; };
 		02EED6511B32FB8E009E0572 /* four-half-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED6501B32FB8E009E0572 /* four-half-stars.png */; };
-		02EED6601B334CAB009E0572 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EED65D1B334CAB009E0572 /* NSURLRequest+OAuth.m */; };
-		02EED6611B334CAB009E0572 /* OAuthConsumer in Resources */ = {isa = PBXBuildFile; fileRef = 02EED65E1B334CAB009E0572 /* OAuthConsumer */; };
-		02EED6621B334CAB009E0572 /* YelpAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EED65F1B334CAB009E0572 /* YelpAPI.m */; };
+		02EED6671B3368C8009E0572 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EED6641B3368C8009E0572 /* NSURLRequest+OAuth.m */; };
+		02EED6681B3368C8009E0572 /* YelpAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EED6661B3368C8009E0572 /* YelpAPI.m */; };
+		02EED66A1B336928009E0572 /* OAuthConsumer in Resources */ = {isa = PBXBuildFile; fileRef = 02EED6691B336928009E0572 /* OAuthConsumer */; };
 		B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751751B2E0FE5000253AB /* AppDelegate.swift */; };
 		B22751781B2E0FE5000253AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751771B2E0FE5000253AB /* ViewController.swift */; };
 		B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22751791B2E0FE5000253AB /* Main.storyboard */; };
@@ -51,11 +51,11 @@
 		02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Powered_By_Yelp_White.png; path = ../../Powered_By_Yelp_White.png; sourceTree = "<group>"; };
 		02EED6501B32FB8E009E0572 /* four-half-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "four-half-stars.png"; path = "../../four-half-stars.png"; sourceTree = "<group>"; };
 		02EED6531B334A27009E0572 /* hungryyeti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hungryyeti-Bridging-Header.h"; sourceTree = "<group>"; };
-		02EED65B1B334C85009E0572 /* YelpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpAPI.h; path = "../../../../Downloads/yelp-api-master/v2/objective-c/YelpAPISample/YelpAPI.h"; sourceTree = "<group>"; };
-		02EED65C1B334CAB009E0572 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+OAuth.h"; path = "../../../../Downloads/yelp-api-master/v2/objective-c/YelpAPISample/NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
-		02EED65D1B334CAB009E0572 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+OAuth.m"; path = "../../../../Downloads/yelp-api-master/v2/objective-c/YelpAPISample/NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
-		02EED65E1B334CAB009E0572 /* OAuthConsumer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OAuthConsumer; path = "../../../../Downloads/yelp-api-master/v2/objective-c/YelpAPISample/OAuthConsumer"; sourceTree = "<group>"; };
-		02EED65F1B334CAB009E0572 /* YelpAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpAPI.m; path = "../../../../Downloads/yelp-api-master/v2/objective-c/YelpAPISample/YelpAPI.m"; sourceTree = "<group>"; };
+		02EED6631B3368C8009E0572 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		02EED6641B3368C8009E0572 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
+		02EED6651B3368C8009E0572 /* YelpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpAPI.h; sourceTree = "<group>"; };
+		02EED6661B3368C8009E0572 /* YelpAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpAPI.m; sourceTree = "<group>"; };
+		02EED6691B336928009E0572 /* OAuthConsumer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OAuthConsumer; sourceTree = "<group>"; };
 		B22751701B2E0FE5000253AB /* hungryyeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hungryyeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22751741B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22751751B2E0FE5000253AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,14 +137,14 @@
 				B22751A71B2E187A000253AB /* Icon@2x.png */,
 				B22751991B2E10F7000253AB /* iphone6.png */,
 				B22751971B2E10BB000253AB /* iphone6plus.png */,
-				02EED65B1B334C85009E0572 /* YelpAPI.h */,
-				02EED65F1B334CAB009E0572 /* YelpAPI.m */,
-				02EED65C1B334CAB009E0572 /* NSURLRequest+OAuth.h */,
-				02EED65D1B334CAB009E0572 /* NSURLRequest+OAuth.m */,
-				02EED65E1B334CAB009E0572 /* OAuthConsumer */,
 				B22751751B2E0FE5000253AB /* AppDelegate.swift */,
+				02EED6691B336928009E0572 /* OAuthConsumer */,
 				B22751771B2E0FE5000253AB /* ViewController.swift */,
 				B23909D01B312F9B00494A63 /* randomRestaurant.swift */,
+				02EED6631B3368C8009E0572 /* NSURLRequest+OAuth.h */,
+				02EED6641B3368C8009E0572 /* NSURLRequest+OAuth.m */,
+				02EED6651B3368C8009E0572 /* YelpAPI.h */,
+				02EED6661B3368C8009E0572 /* YelpAPI.m */,
 				B22751791B2E0FE5000253AB /* Main.storyboard */,
 				B227517C1B2E0FE5000253AB /* Images.xcassets */,
 				B22751731B2E0FE5000253AB /* Supporting Files */,
@@ -273,7 +273,7 @@
 				B227517D1B2E0FE5000253AB /* Images.xcassets in Resources */,
 				02EED64F1B32F940009E0572 /* Powered_By_Yelp_White.png in Resources */,
 				B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */,
-				02EED6611B334CAB009E0572 /* OAuthConsumer in Resources */,
+				02EED66A1B336928009E0572 /* OAuthConsumer in Resources */,
 				B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */,
 				B25955F01B2F8EF800857FA0 /* iphone3.png in Resources */,
 				02EED64D1B32F8A2009E0572 /* yelp_logo_100x50.png in Resources */,
@@ -296,11 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02EED6601B334CAB009E0572 /* NSURLRequest+OAuth.m in Sources */,
-				02EED6621B334CAB009E0572 /* YelpAPI.m in Sources */,
+				02EED6671B3368C8009E0572 /* NSURLRequest+OAuth.m in Sources */,
 				B22751781B2E0FE5000253AB /* ViewController.swift in Sources */,
 				B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */,
 				B23909D11B312F9B00494A63 /* randomRestaurant.swift in Sources */,
+				02EED6681B3368C8009E0572 /* YelpAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

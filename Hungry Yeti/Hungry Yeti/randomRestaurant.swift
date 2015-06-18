@@ -16,31 +16,30 @@ import "YelpAPI.h"
 
 class randomRestaurant: UIViewController, CLLocationManagerDelegate {
     
+    
+    
+    //Instantiate Variables from storyboard//
+    ////////////////////////////////////
     //location manager for user location
     let locationManager:CLLocationManager = CLLocationManager()
-    
     @IBOutlet weak var YelpImage: UIImageView!
-    
     @IBOutlet weak var starIcons: UIImageView!
-    
     //error message if location can't be grabbed
     @IBOutlet weak var errorMessage: UILabel!
-    
     //if restaurant is not satisfiable, search again
     @IBOutlet weak var refreshSearch: UIButton!
-    
     //if more information is need open on yelp's mobile website or app if available
-    
     @IBOutlet weak var openOnYelp: UIButton!
-    
-    
     //loading icon in place between both view controllers
     @IBOutlet weak var loading: UIActivityIndicatorView! = nil
     
+    ////////////////////////////////////
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         
         //start animating icon
         self.loading.startAnimating()
@@ -75,7 +74,7 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
             println(location.coordinate)
         
         callYelpAPI(location.coordinate.latitude, longitude: location.coordinate.longitude)
-        }
+        
         
     }
     
