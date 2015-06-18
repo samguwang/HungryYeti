@@ -28,7 +28,7 @@
 		B22751AC1B2E187A000253AB /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */; };
 		B22751AD1B2E187A000253AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A61B2E187A000253AB /* Icon.png */; };
 		B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A71B2E187A000253AB /* Icon@2x.png */; };
-		B23909D11B312F9B00494A63 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23909D01B312F9B00494A63 /* ViewController2.swift */; };
+		B23909D11B312F9B00494A63 /* randomRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23909D01B312F9B00494A63 /* randomRestaurant.swift */; };
 		B25955F01B2F8EF800857FA0 /* iphone3.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955ED1B2F8EF800857FA0 /* iphone3.png */; };
 		B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EE1B2F8EF800857FA0 /* iphone4.png */; };
 		B25955F21B2F8EF800857FA0 /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EF1B2F8EF800857FA0 /* iphone5.png */; };
@@ -74,7 +74,7 @@
 		B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "../../icons/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
 		B22751A61B2E187A000253AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../icons/Icon.png; sourceTree = "<group>"; };
 		B22751A71B2E187A000253AB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../icons/Icon@2x.png"; sourceTree = "<group>"; };
-		B23909D01B312F9B00494A63 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B23909D01B312F9B00494A63 /* randomRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomRestaurant.swift; sourceTree = "<group>"; };
 		B25955ED1B2F8EF800857FA0 /* iphone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone3.png; path = ../../iphone3.png; sourceTree = "<group>"; };
 		B25955EE1B2F8EF800857FA0 /* iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4.png; path = ../../iphone4.png; sourceTree = "<group>"; };
 		B25955EF1B2F8EF800857FA0 /* iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone5.png; path = ../../iphone5.png; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				02EED65E1B334CAB009E0572 /* OAuthConsumer */,
 				B22751751B2E0FE5000253AB /* AppDelegate.swift */,
 				B22751771B2E0FE5000253AB /* ViewController.swift */,
-				B23909D01B312F9B00494A63 /* ViewController2.swift */,
+				B23909D01B312F9B00494A63 /* randomRestaurant.swift */,
 				B22751791B2E0FE5000253AB /* Main.storyboard */,
 				B227517C1B2E0FE5000253AB /* Images.xcassets */,
 				B22751731B2E0FE5000253AB /* Supporting Files */,
@@ -300,7 +300,7 @@
 				02EED6621B334CAB009E0572 /* YelpAPI.m in Sources */,
 				B22751781B2E0FE5000253AB /* ViewController.swift in Sources */,
 				B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */,
-				B23909D11B312F9B00494A63 /* ViewController2.swift in Sources */,
+				B23909D11B312F9B00494A63 /* randomRestaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
