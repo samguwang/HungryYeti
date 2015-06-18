@@ -52,13 +52,9 @@ class ViewController2: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    //authenticate Yelp API request
-    func YelpAPI() {
-        
-    }
+    //make query call using yelp authentication, grab location from location manager, make sure to change plist settings for ios8 location preferences
     
-    get query
-    func queryAPI() {
+    func queryAPI(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
         
     }
     
