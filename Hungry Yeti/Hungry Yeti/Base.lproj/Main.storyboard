@@ -240,10 +240,10 @@
             </objects>
             <point key="canvasLocation" x="459" y="406.5"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="VpF-Nz-UKy">
             <objects>
-                <viewController id="e41-zn-dto" sceneMemberID="viewController">
+                <viewController id="e41-zn-dto" customClass="ViewController2" customModule="hungryyeti" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GhA-nb-OCW"/>
                         <viewControllerLayoutGuide type="bottom" id="Wa6-qF-kbK"/>
@@ -313,6 +313,11 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Fsk-gB-NpB"/>
+                    <connections>
+                        <outlet property="YelpImage" destination="Jvc-ji-otA" id="TH0-F1-Nnk"/>
+                        <outlet property="refreshSearch" destination="JwO-u8-Z43" id="XGS-wf-hLM"/>
+                        <outlet property="starIcons" destination="UPP-3g-a57" id="lNg-Fc-HXe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dw9-Hu-Rlu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
