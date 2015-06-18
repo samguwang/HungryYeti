@@ -34,6 +34,10 @@
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>NSLocationUsageDescription</key>
+	<string>Your location is used to tell where you are</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location used to tell where you are</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
