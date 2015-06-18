@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>33AD1792-BD77-43F6-B3B8-66EA1D68523C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>hungryyeti</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C6313786846A3F4DF93B48CE6DCAFEC3AB08F64B</key>
 		<string>https://github.com/samguwang/HungryYeti.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Hungry Yeti/hungryyeti.xcodeproj/project.xcworkspace</string>
+	<string>Hungry Yeti/hungryyeti.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C6313786846A3F4DF93B48CE6DCAFEC3AB08F64B</key>

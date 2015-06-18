@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -141,6 +141,15 @@
                                     </mask>
                                 </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews from Yelp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xg5-A2-M62">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="138" y="759" width="114" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.51412896594829094" green="0.67615571040523959" blue="0.78797743055555558" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -170,6 +179,7 @@
                                 <exclude reference="gY1-qh-AhO"/>
                                 <exclude reference="DrB-Ld-KmZ"/>
                                 <exclude reference="eI8-4N-8QP"/>
+                                <exclude reference="xg5-A2-M62"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="QJt-5D-eOV"/>
@@ -207,6 +217,7 @@
                                 <include reference="gY1-qh-AhO"/>
                                 <include reference="DrB-Ld-KmZ"/>
                                 <include reference="eI8-4N-8QP"/>
+                                <include reference="xg5-A2-M62"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="QJt-5D-eOV"/>
@@ -238,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="459" y="406.5"/>
+            <point key="canvasLocation" x="-153" y="123"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="VpF-Nz-UKy">
@@ -252,80 +263,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwO-u8-Z43">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwO-u8-Z43">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" image="yelp_logo_100x50.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="734" width="46" height="30"/>
+                                    <rect key="frame" x="226" y="732" width="54" height="27"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hvc-Co-UAo">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jvc-ji-otA">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="177" y="734" width="46" height="30"/>
+                                    <rect key="frame" x="80" y="309" width="240" height="181"/>
                                 </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyH-Nv-QaD">
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uchiko" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsG-EQ-lF6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="82" y="207" width="237" height="91"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZe-Kb-ZM8">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="338" y="734" width="46" height="30"/>
+                                    <rect key="frame" x="134" y="732" width="46" height="30"/>
                                 </variation>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UPP-3g-a57">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="327" width="240" height="50"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jvc-ji-otA">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="120" width="240" height="181"/>
+                                    <rect key="frame" x="79" y="549" width="240" height="50"/>
                                 </variation>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="JwO-u8-Z43"/>
-                                <exclude reference="Hvc-Co-UAo"/>
-                                <exclude reference="wyH-Nv-QaD"/>
-                                <exclude reference="UPP-3g-a57"/>
                                 <exclude reference="Jvc-ji-otA"/>
+                                <exclude reference="rsG-EQ-lF6"/>
+                                <exclude reference="PZe-Kb-ZM8"/>
+                                <exclude reference="UPP-3g-a57"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="JwO-u8-Z43"/>
-                                <include reference="Hvc-Co-UAo"/>
-                                <include reference="wyH-Nv-QaD"/>
-                                <include reference="UPP-3g-a57"/>
                                 <include reference="Jvc-ji-otA"/>
+                                <include reference="rsG-EQ-lF6"/>
+                                <include reference="PZe-Kb-ZM8"/>
+                                <include reference="UPP-3g-a57"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Fsk-gB-NpB"/>
                     <connections>
                         <outlet property="YelpImage" destination="Jvc-ji-otA" id="TH0-F1-Nnk"/>
-                        <outlet property="refreshSearch" destination="JwO-u8-Z43" id="XGS-wf-hLM"/>
+                        <outlet property="openOnYelp" destination="JwO-u8-Z43" id="yrS-Ug-YIl"/>
+                        <outlet property="refreshSearch" destination="PZe-Kb-ZM8" id="MeB-gc-mbz"/>
                         <outlet property="starIcons" destination="UPP-3g-a57" id="lNg-Fc-HXe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dw9-Hu-Rlu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1293" y="415.5"/>
+            <point key="canvasLocation" x="612" y="123"/>
         </scene>
     </scenes>
     <resources>
         <image name="arrow.png" width="300" height="300"/>
         <image name="eatlogo.png" width="1093" height="1093"/>
+        <image name="yelp_logo_100x50.png" width="102" height="52"/>
     </resources>
 </document>
