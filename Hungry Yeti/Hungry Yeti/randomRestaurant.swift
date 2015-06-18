@@ -32,9 +32,8 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var openOnYelp: UIButton!
     //loading icon in place between both view controllers
     @IBOutlet weak var loading: UIActivityIndicatorView! = nil
-    
     ////////////////////////////////////
-    
+    ////////////////////////////////////
     
     
     
