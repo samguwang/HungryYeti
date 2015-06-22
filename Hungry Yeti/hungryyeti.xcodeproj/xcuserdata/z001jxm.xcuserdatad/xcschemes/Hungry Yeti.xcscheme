@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B227516F1B2E0FE5000253AB"
-            BuildableName = "Hungry Yeti.app"
-            BlueprintName = "Hungry Yeti"
-            ReferencedContainer = "container:Hungry Yeti.xcodeproj">
+            BuildableName = "hungryyeti.app"
+            BlueprintName = "hungryyeti"
+            ReferencedContainer = "container:hungryyeti.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B227516F1B2E0FE5000253AB"
-            BuildableName = "Hungry Yeti.app"
-            BlueprintName = "Hungry Yeti"
-            ReferencedContainer = "container:Hungry Yeti.xcodeproj">
+            BuildableName = "hungryyeti.app"
+            BlueprintName = "hungryyeti"
+            ReferencedContainer = "container:hungryyeti.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

@@ -7,7 +7,10 @@
 //
 
 import UIKit
-import "YelpAPI.h"
+import CoreLocation
+
+
+
 
 //view controller for second view to grab random restaurant. Currently will load function with api request on viewdidload
 //pass information from loaded from api to another function that displays what was grabbed 
@@ -59,6 +62,12 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
     
     
     
+    //Upon successful Location services call, make query request to Yelp API, return JSON object and pass into
+    //sucessfulAPICall() method to then display info. Potentially add new helper method to display information
+    //for design purorses or do everything in succesfullAPICall()
+    func callYelpAPI(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
+        
+    }
     
     //make a delegate method of CLLocationManager, call Yelp API method upon successful authentication and pass
     //in location in the form of a Cll object
@@ -82,22 +91,17 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
         println(error)
         self.errorMessage.text = "Can't Find You"
     }
+   
     
-    //Upon successful Location services call, make query request to Yelp API, return JSON object and pass into
-    //sucessfulAPICall() method to then display info. Potentially add new helper method to display information
-    //for design purorses or do everything in succesfullAPICall()
-    func callYelpAPI(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
-        
-    }
-    
-    //read in JSON object from Yelp API call from previous function. Pass on information to new function to
-    //display on application
-    func sucessfulAPICall(json: JSON){
-        
-        //upong sucessful API call, stop loading icon
-        self.loading.stopAnimating()
-        
-    }
+//    //read in JSON object from Yelp API call from previous function. Pass on information to new function to
+//    //display on application
+//    func sucessfulAPICall(json: JSON){
+//        
+//        //upong sucessful API call, stop loading icon
+//        self.loading.stopAnimating()
+//        
+//    }
     
     
+}
 }

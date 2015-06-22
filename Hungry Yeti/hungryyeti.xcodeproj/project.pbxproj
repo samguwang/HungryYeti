@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024634181B3855CE00CA5EAC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024634171B3855CE00CA5EAC /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0246341A1B38580600CA5EAC /* yelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024634191B38580600CA5EAC /* yelpAPIClient.swift */; };
+		0246341C1B38664400CA5EAC /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246341B1B38664400CA5EAC /* Business.swift */; };
 		024FD6911B2F594E009C8505 /* eatlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 024FD6901B2F594E009C8505 /* eatlogo.png */; };
 		02EED64D1B32F8A2009E0572 /* yelp_logo_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64C1B32F8A2009E0572 /* yelp_logo_100x50.png */; };
 		02EED64F1B32F940009E0572 /* Powered_By_Yelp_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */; };
 		02EED6511B32FB8E009E0572 /* four-half-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED6501B32FB8E009E0572 /* four-half-stars.png */; };
-		02EED6671B3368C8009E0572 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EED6641B3368C8009E0572 /* NSURLRequest+OAuth.m */; };
-		02EED6681B3368C8009E0572 /* YelpAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EED6661B3368C8009E0572 /* YelpAPI.m */; };
-		02EED66A1B336928009E0572 /* OAuthConsumer in Resources */ = {isa = PBXBuildFile; fileRef = 02EED6691B336928009E0572 /* OAuthConsumer */; };
+		5592D0C3F4C060771CFEFA85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F0959769A59504B4B02959 /* libPods.a */; };
 		B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751751B2E0FE5000253AB /* AppDelegate.swift */; };
 		B22751781B2E0FE5000253AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751771B2E0FE5000253AB /* ViewController.swift */; };
 		B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22751791B2E0FE5000253AB /* Main.storyboard */; };
@@ -33,7 +34,6 @@
 		B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EE1B2F8EF800857FA0 /* iphone4.png */; };
 		B25955F21B2F8EF800857FA0 /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EF1B2F8EF800857FA0 /* iphone5.png */; };
 		B25955F41B2F928900857FA0 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955F31B2F928900857FA0 /* arrow.png */; };
-		F377C2353F69C24ED808F97F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B34E84932660F95DF68BB1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,19 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024634171B3855CE00CA5EAC /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		024634191B38580600CA5EAC /* yelpAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yelpAPIClient.swift; sourceTree = "<group>"; };
+		0246341B1B38664400CA5EAC /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		0246341E1B386B7100CA5EAC /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		024FD6901B2F594E009C8505 /* eatlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eatlogo.png; path = ../../eatlogo.png; sourceTree = "<group>"; };
 		02EED64C1B32F8A2009E0572 /* yelp_logo_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yelp_logo_100x50.png; path = ../../yelp_logo_100x50.png; sourceTree = "<group>"; };
 		02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Powered_By_Yelp_White.png; path = ../../Powered_By_Yelp_White.png; sourceTree = "<group>"; };
 		02EED6501B32FB8E009E0572 /* four-half-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "four-half-stars.png"; path = "../../four-half-stars.png"; sourceTree = "<group>"; };
 		02EED6531B334A27009E0572 /* hungryyeti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hungryyeti-Bridging-Header.h"; sourceTree = "<group>"; };
-		02EED6631B3368C8009E0572 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
-		02EED6641B3368C8009E0572 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
-		02EED6651B3368C8009E0572 /* YelpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpAPI.h; sourceTree = "<group>"; };
-		02EED6661B3368C8009E0572 /* YelpAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpAPI.m; sourceTree = "<group>"; };
-		02EED6691B336928009E0572 /* OAuthConsumer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OAuthConsumer; sourceTree = "<group>"; };
-		14B34E84932660F95DF68BB1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C14873E10A10F66913A0078 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		82A1792B9AD42AB93F35180C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		97F0959769A59504B4B02959 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22751701B2E0FE5000253AB /* hungryyeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hungryyeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22751741B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22751751B2E0FE5000253AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F377C2353F69C24ED808F97F /* Pods.framework in Frameworks */,
+				024634181B3855CE00CA5EAC /* Pods.framework in Frameworks */,
+				5592D0C3F4C060771CFEFA85 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,9 @@
 		878A0D5E24B84216B4CF23B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				14B34E84932660F95DF68BB1 /* Pods.framework */,
+				0246341E1B386B7100CA5EAC /* Pods.framework */,
+				024634171B3855CE00CA5EAC /* Pods.framework */,
+				97F0959769A59504B4B02959 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,17 +164,14 @@
 				B22751991B2E10F7000253AB /* iphone6.png */,
 				B22751971B2E10BB000253AB /* iphone6plus.png */,
 				B22751751B2E0FE5000253AB /* AppDelegate.swift */,
-				02EED6691B336928009E0572 /* OAuthConsumer */,
 				B22751771B2E0FE5000253AB /* ViewController.swift */,
 				B23909D01B312F9B00494A63 /* randomRestaurant.swift */,
-				02EED6631B3368C8009E0572 /* NSURLRequest+OAuth.h */,
-				02EED6641B3368C8009E0572 /* NSURLRequest+OAuth.m */,
-				02EED6651B3368C8009E0572 /* YelpAPI.h */,
-				02EED6661B3368C8009E0572 /* YelpAPI.m */,
+				02EED6531B334A27009E0572 /* hungryyeti-Bridging-Header.h */,
+				024634191B38580600CA5EAC /* yelpAPIClient.swift */,
+				0246341B1B38664400CA5EAC /* Business.swift */,
 				B22751791B2E0FE5000253AB /* Main.storyboard */,
 				B227517C1B2E0FE5000253AB /* Images.xcassets */,
 				B22751731B2E0FE5000253AB /* Supporting Files */,
-				02EED6531B334A27009E0572 /* hungryyeti-Bridging-Header.h */,
 			);
 			path = "Hungry Yeti";
 			sourceTree = "<group>";
@@ -213,7 +212,6 @@
 				B227516C1B2E0FE5000253AB /* Sources */,
 				B227516D1B2E0FE5000253AB /* Frameworks */,
 				B227516E1B2E0FE5000253AB /* Resources */,
-				EAF30ABE9FE2C6EFB494CCCA /* Embed Pods Frameworks */,
 				3B8F57C101F07EEE323E1971 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -300,7 +298,6 @@
 				B227517D1B2E0FE5000253AB /* Images.xcassets in Resources */,
 				02EED64F1B32F940009E0572 /* Powered_By_Yelp_White.png in Resources */,
 				B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */,
-				02EED66A1B336928009E0572 /* OAuthConsumer in Resources */,
 				B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */,
 				B25955F01B2F8EF800857FA0 /* iphone3.png in Resources */,
 				02EED64D1B32F8A2009E0572 /* yelp_logo_100x50.png in Resources */,
@@ -349,21 +346,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EAF30ABE9FE2C6EFB494CCCA /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -371,11 +353,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02EED6671B3368C8009E0572 /* NSURLRequest+OAuth.m in Sources */,
 				B22751781B2E0FE5000253AB /* ViewController.swift in Sources */,
 				B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */,
+				0246341C1B38664400CA5EAC /* Business.swift in Sources */,
 				B23909D11B312F9B00494A63 /* randomRestaurant.swift in Sources */,
-				02EED6681B3368C8009E0572 /* YelpAPI.m in Sources */,
+				0246341A1B38580600CA5EAC /* yelpAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +432,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -486,6 +469,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "Pods/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -499,6 +483,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,6 +506,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Hungry Yeti/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -529,11 +521,13 @@
 		};
 		B22751931B2E0FE5000253AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A1792B9AD42AB93F35180C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -548,11 +542,13 @@
 		};
 		B22751941B2E0FE5000253AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C14873E10A10F66913A0078 /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = "Hungry YetiTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
