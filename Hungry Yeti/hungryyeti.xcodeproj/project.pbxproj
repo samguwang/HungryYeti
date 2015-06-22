@@ -12,6 +12,7 @@
 		0246341C1B38664400CA5EAC /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246341B1B38664400CA5EAC /* Business.swift */; };
 		024FD6911B2F594E009C8505 /* eatlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 024FD6901B2F594E009C8505 /* eatlogo.png */; };
 		02D0065C1B38A0BC00689DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D0065B1B38A0BC00689DFB /* Main.storyboard */; };
+		02D0065E1B38AAE700689DFB /* businessInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0065D1B38AAE700689DFB /* businessInfoView.swift */; };
 		02EED64D1B32F8A2009E0572 /* yelp_logo_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64C1B32F8A2009E0572 /* yelp_logo_100x50.png */; };
 		02EED64F1B32F940009E0572 /* Powered_By_Yelp_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */; };
 		02EED6511B32FB8E009E0572 /* four-half-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED6501B32FB8E009E0572 /* four-half-stars.png */; };
@@ -52,6 +53,7 @@
 		0246341E1B386B7100CA5EAC /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		024FD6901B2F594E009C8505 /* eatlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eatlogo.png; path = ../../eatlogo.png; sourceTree = "<group>"; };
 		02D0065B1B38A0BC00689DFB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		02D0065D1B38AAE700689DFB /* businessInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = businessInfoView.swift; sourceTree = "<group>"; };
 		02EED64C1B32F8A2009E0572 /* yelp_logo_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yelp_logo_100x50.png; path = ../../yelp_logo_100x50.png; sourceTree = "<group>"; };
 		02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Powered_By_Yelp_White.png; path = ../../Powered_By_Yelp_White.png; sourceTree = "<group>"; };
 		02EED6501B32FB8E009E0572 /* four-half-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "four-half-stars.png"; path = "../../four-half-stars.png"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				02D0065B1B38A0BC00689DFB /* Main.storyboard */,
 				B22751751B2E0FE5000253AB /* AppDelegate.swift */,
 				B22751771B2E0FE5000253AB /* ViewController.swift */,
+				02D0065D1B38AAE700689DFB /* businessInfoView.swift */,
 				024634191B38580600CA5EAC /* yelpAPIClient.swift */,
 				0246341B1B38664400CA5EAC /* Business.swift */,
 				B227517C1B2E0FE5000253AB /* Images.xcassets */,
@@ -352,6 +355,7 @@
 			files = (
 				B22751781B2E0FE5000253AB /* ViewController.swift in Sources */,
 				B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */,
+				02D0065E1B38AAE700689DFB /* businessInfoView.swift in Sources */,
 				0246341C1B38664400CA5EAC /* Business.swift in Sources */,
 				0246341A1B38580600CA5EAC /* yelpAPIClient.swift in Sources */,
 			);

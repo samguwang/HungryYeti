@@ -237,10 +237,10 @@
             </objects>
             <point key="canvasLocation" x="-939" y="-24"/>
         </scene>
-        <!--View Controller-->
+        <!--Business Info View-->
         <scene sceneID="rVD-eu-u74">
             <objects>
-                <viewController id="mj9-tC-fjB" sceneMemberID="viewController">
+                <viewController id="mj9-tC-fjB" customClass="businessInfoView" customModule="hungryyeti" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hk0-Xl-wvy"/>
                         <viewControllerLayoutGuide type="bottom" id="I2H-Qr-E3p"/>
