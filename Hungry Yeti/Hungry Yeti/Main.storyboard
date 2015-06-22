@@ -247,8 +247,85 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6wu-Wr-qMh">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="0Cb-d2-7B6">
+                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="L42-08-psO"/>
+                                    <constraint firstAttribute="height" constant="20" id="dyt-WA-Umh"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="L42-08-psO"/>
+                                        <exclude reference="dyt-WA-Umh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="L42-08-psO"/>
+                                        <include reference="dyt-WA-Umh"/>
+                                    </mask>
+                                </variation>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puH-vj-hM9">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="AMC-OB-1oO"/>
+                                    <constraint firstAttribute="height" constant="135" id="Gmd-9F-uTp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AMC-OB-1oO"/>
+                                        <exclude reference="Gmd-9F-uTp"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="AMC-OB-1oO"/>
+                                        <include reference="Gmd-9F-uTp"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="puH-vj-hM9" secondAttribute="centerY" constant="134.5" id="OXy-x3-cJ9"/>
+                            <constraint firstAttribute="centerY" secondItem="0Cb-d2-7B6" secondAttribute="centerY" constant="49" id="i1k-zR-u6u"/>
+                            <constraint firstAttribute="centerX" secondItem="0Cb-d2-7B6" secondAttribute="centerX" id="joB-Q6-pVZ"/>
+                            <constraint firstAttribute="centerX" secondItem="puH-vj-hM9" secondAttribute="centerX" constant="-0.5" id="pU7-sF-S7A"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="0Cb-d2-7B6"/>
+                                <exclude reference="puH-vj-hM9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="OXy-x3-cJ9"/>
+                                <exclude reference="pU7-sF-S7A"/>
+                                <exclude reference="i1k-zR-u6u"/>
+                                <exclude reference="joB-Q6-pVZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="0Cb-d2-7B6"/>
+                                <include reference="puH-vj-hM9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OXy-x3-cJ9"/>
+                                <include reference="pU7-sF-S7A"/>
+                                <include reference="i1k-zR-u6u"/>
+                                <include reference="joB-Q6-pVZ"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="businessName" destination="puH-vj-hM9" id="ceU-dQ-58F"/>
+                        <outlet property="loading" destination="0Cb-d2-7B6" id="BX2-1p-lKY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g49-hx-0Tf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -14,7 +14,9 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
     
     let locationManager:CLLocationManager = CLLocationManager()
     
+    @IBOutlet weak var loading: UIActivityIndicatorView!
     
+    @IBOutlet weak var businessName: UILabel!
    
     
     
@@ -24,6 +26,7 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.loading.startAnimating()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestAlwaysAuthorization()
@@ -38,8 +41,19 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
     func randRange (lower: Int , upper: Int) -> Int {
         return lower + Int(arc4random_uniform(UInt32(upper - lower + 1)))
+    }
+    
+    //after grabbing a business, display information
+    func updateInfo(selected: Business){
+        self.loading.hidden = true
+        self.loading.startAnimating()
+        let name = selected.name
+        businessName.text = name
+        
     }
     
     
@@ -59,15 +73,17 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
             self.businesses = businesses
             let top = businesses.endIndex
             let ran = self.randRange(0, upper: 19)
-            let businame = businesses[ran].name
+            var selectedBusiness = businesses[ran]
+            let businame = selectedBusiness.name
             println(businame)
-            //            for business in businesses {
-            //                println(business.name!)
-            //                println(business.address!)
-            //            }
+            self.updateInfo(selectedBusiness)
+            
         })
         
     }
+    
+    
+    
     
     func locationManager(manager: CLLocationManager!, didFailWithError error: NSError!) {
         println(error)
