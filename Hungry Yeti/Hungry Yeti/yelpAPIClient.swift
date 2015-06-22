@@ -17,9 +17,7 @@ let yelpConsumerSecret = "YhehU_ik0zKB84c3r1g7VlaxhQ8"
 let yelpToken = "VMKgIAyZFW2AF1CQ_GW_3qaCxsS3LHUj"
 let yelpTokenSecret = "9dfGC-nfwaHYVaF493cg1xidJcU"
 
-enum YelpSortMode: Int {
-    case BestMatched = 0, Distance, HighestRated
-}
+
 
 
 //incorporate BDBOAuth1Manager pod for authentication to Yelp API
@@ -60,14 +58,14 @@ class yelpAPIClient: BDBOAuth1RequestOperationManager{
     
     
     
-    //function to search by location 
+    //function to sent a request to YelpAPI for search
     func searchByLocationRatingDistance(term: String, limit: Int, Lat: CLLocationDegrees, Long: CLLocationDegrees, sort: Int, categories: String, radius_filter: Int,
         completion: ([Business]!, NSError!) -> Void) -> AFHTTPRequestOperation {
         
         let latlong = Lat.description + "," + Long.description
         var parameters: [String : AnyObject] = ["term": term, "limit": limit, "ll": latlong, "sort": sort, "category_filter": categories, "radius_filter":radius_filter]
         
-    
+            //return JSON request and unwrap using Buesiness class 
             return self.GET("search", parameters: parameters, success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
                 var dictionaries = response["businesses"] as? [NSDictionary]
                 if dictionaries != nil {

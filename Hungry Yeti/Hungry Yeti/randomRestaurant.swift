@@ -35,6 +35,7 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var openOnYelp: UIButton!
     //loading icon in place between both view controllers
     @IBOutlet weak var loading: UIActivityIndicatorView! = nil
+    var businesses: [Business]!
     ////////////////////////////////////
     ////////////////////////////////////
     
@@ -62,16 +63,7 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
     
     
     
-    //Upon successful Location services call, make query request to Yelp API, return JSON object and pass into
-    //sucessfulAPICall() method to then display info. Potentially add new helper method to display information
-    //for design purorses or do everything in succesfullAPICall()
-    func callYelpAPI(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
-        
-    }
-    
-    //make a delegate method of CLLocationManager, call Yelp API method upon successful authentication and pass
-    //in location in the form of a Cll object
-    func getLocationCallYelpAPI(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
+    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         
         //store location in location variable of type CLLocation
         var location:CLLocation = locations[locations.count-1] as! CLLocation
@@ -80,11 +72,21 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
         if (location.horizontalAccuracy > 0) {
             self.locationManager.stopUpdatingLocation()
             println(location.coordinate)
-        
-        callYelpAPI(location.coordinate.latitude, longitude: location.coordinate.longitude)
-        
+            
+        }
+        let te = "Food"
+        Business.searchByLocationRatingDistance(te, limit: 20, Lat: location.coordinate.latitude, Long: location.coordinate.longitude, sort: 0, categories: "restaurants", radius_filter: 2000, completion: { (businesses: [Business]!, error: NSError!) -> Void in
+            self.businesses = businesses
+            let name = businesses.first!.name!
+            println(name)
+//            for business in businesses {
+//                println(business.name!)
+//                println(business.address!)
+//            }
+        })
         
     }
+
     
     //method in case location grabbing fails
     func locationManager(manager: CLLocationManager!, didFailWithError error: NSError!) {
@@ -93,15 +95,8 @@ class randomRestaurant: UIViewController, CLLocationManagerDelegate {
     }
    
     
-//    //read in JSON object from Yelp API call from previous function. Pass on information to new function to
-//    //display on application
-//    func sucessfulAPICall(json: JSON){
-//        
-//        //upong sucessful API call, stop loading icon
-//        self.loading.stopAnimating()
-//        
-//    }
+
     
     
 }
-}
+

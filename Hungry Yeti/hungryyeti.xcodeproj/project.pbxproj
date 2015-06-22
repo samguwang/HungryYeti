@@ -11,13 +11,13 @@
 		0246341A1B38580600CA5EAC /* yelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024634191B38580600CA5EAC /* yelpAPIClient.swift */; };
 		0246341C1B38664400CA5EAC /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246341B1B38664400CA5EAC /* Business.swift */; };
 		024FD6911B2F594E009C8505 /* eatlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 024FD6901B2F594E009C8505 /* eatlogo.png */; };
+		02D0065C1B38A0BC00689DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D0065B1B38A0BC00689DFB /* Main.storyboard */; };
 		02EED64D1B32F8A2009E0572 /* yelp_logo_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64C1B32F8A2009E0572 /* yelp_logo_100x50.png */; };
 		02EED64F1B32F940009E0572 /* Powered_By_Yelp_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */; };
 		02EED6511B32FB8E009E0572 /* four-half-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EED6501B32FB8E009E0572 /* four-half-stars.png */; };
 		5592D0C3F4C060771CFEFA85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F0959769A59504B4B02959 /* libPods.a */; };
 		B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751751B2E0FE5000253AB /* AppDelegate.swift */; };
 		B22751781B2E0FE5000253AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22751771B2E0FE5000253AB /* ViewController.swift */; };
-		B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22751791B2E0FE5000253AB /* Main.storyboard */; };
 		B227517D1B2E0FE5000253AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B227517C1B2E0FE5000253AB /* Images.xcassets */; };
 		B227518C1B2E0FE5000253AB /* Hungry_YetiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227518B1B2E0FE5000253AB /* Hungry_YetiTests.swift */; };
 		B22751981B2E10BB000253AB /* iphone6plus.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751971B2E10BB000253AB /* iphone6plus.png */; };
@@ -29,7 +29,6 @@
 		B22751AC1B2E187A000253AB /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */; };
 		B22751AD1B2E187A000253AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A61B2E187A000253AB /* Icon.png */; };
 		B22751AE1B2E187A000253AB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22751A71B2E187A000253AB /* Icon@2x.png */; };
-		B23909D11B312F9B00494A63 /* randomRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23909D01B312F9B00494A63 /* randomRestaurant.swift */; };
 		B25955F01B2F8EF800857FA0 /* iphone3.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955ED1B2F8EF800857FA0 /* iphone3.png */; };
 		B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EE1B2F8EF800857FA0 /* iphone4.png */; };
 		B25955F21B2F8EF800857FA0 /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EF1B2F8EF800857FA0 /* iphone5.png */; };
@@ -52,6 +51,7 @@
 		0246341B1B38664400CA5EAC /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		0246341E1B386B7100CA5EAC /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		024FD6901B2F594E009C8505 /* eatlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eatlogo.png; path = ../../eatlogo.png; sourceTree = "<group>"; };
+		02D0065B1B38A0BC00689DFB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		02EED64C1B32F8A2009E0572 /* yelp_logo_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yelp_logo_100x50.png; path = ../../yelp_logo_100x50.png; sourceTree = "<group>"; };
 		02EED64E1B32F940009E0572 /* Powered_By_Yelp_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Powered_By_Yelp_White.png; path = ../../Powered_By_Yelp_White.png; sourceTree = "<group>"; };
 		02EED6501B32FB8E009E0572 /* four-half-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "four-half-stars.png"; path = "../../four-half-stars.png"; sourceTree = "<group>"; };
@@ -63,7 +63,6 @@
 		B22751741B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22751751B2E0FE5000253AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B22751771B2E0FE5000253AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B227517A1B2E0FE5000253AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B227517C1B2E0FE5000253AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B22751851B2E0FE5000253AB /* hungryyetiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hungryyetiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B227518A1B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +76,6 @@
 		B22751A51B2E187A000253AB /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "../../icons/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
 		B22751A61B2E187A000253AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../icons/Icon.png; sourceTree = "<group>"; };
 		B22751A71B2E187A000253AB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../icons/Icon@2x.png"; sourceTree = "<group>"; };
-		B23909D01B312F9B00494A63 /* randomRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomRestaurant.swift; sourceTree = "<group>"; };
 		B25955ED1B2F8EF800857FA0 /* iphone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone3.png; path = ../../iphone3.png; sourceTree = "<group>"; };
 		B25955EE1B2F8EF800857FA0 /* iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4.png; path = ../../iphone4.png; sourceTree = "<group>"; };
 		B25955EF1B2F8EF800857FA0 /* iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone5.png; path = ../../iphone5.png; sourceTree = "<group>"; };
@@ -163,13 +161,12 @@
 				B22751A71B2E187A000253AB /* Icon@2x.png */,
 				B22751991B2E10F7000253AB /* iphone6.png */,
 				B22751971B2E10BB000253AB /* iphone6plus.png */,
+				02EED6531B334A27009E0572 /* hungryyeti-Bridging-Header.h */,
+				02D0065B1B38A0BC00689DFB /* Main.storyboard */,
 				B22751751B2E0FE5000253AB /* AppDelegate.swift */,
 				B22751771B2E0FE5000253AB /* ViewController.swift */,
-				B23909D01B312F9B00494A63 /* randomRestaurant.swift */,
-				02EED6531B334A27009E0572 /* hungryyeti-Bridging-Header.h */,
 				024634191B38580600CA5EAC /* yelpAPIClient.swift */,
 				0246341B1B38664400CA5EAC /* Business.swift */,
-				B22751791B2E0FE5000253AB /* Main.storyboard */,
 				B227517C1B2E0FE5000253AB /* Images.xcassets */,
 				B22751731B2E0FE5000253AB /* Supporting Files */,
 			);
@@ -284,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B227517B1B2E0FE5000253AB /* Main.storyboard in Resources */,
 				02EED6511B32FB8E009E0572 /* four-half-stars.png in Resources */,
 				B227519A1B2E10F7000253AB /* iphone6.png in Resources */,
 				B22751AB1B2E187A000253AB /* Icon-Small-50.png in Resources */,
@@ -302,6 +298,7 @@
 				B25955F01B2F8EF800857FA0 /* iphone3.png in Resources */,
 				02EED64D1B32F8A2009E0572 /* yelp_logo_100x50.png in Resources */,
 				B25955F21B2F8EF800857FA0 /* iphone5.png in Resources */,
+				02D0065C1B38A0BC00689DFB /* Main.storyboard in Resources */,
 				B22751981B2E10BB000253AB /* iphone6plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +353,6 @@
 				B22751781B2E0FE5000253AB /* ViewController.swift in Sources */,
 				B22751761B2E0FE5000253AB /* AppDelegate.swift in Sources */,
 				0246341C1B38664400CA5EAC /* Business.swift in Sources */,
-				B23909D11B312F9B00494A63 /* randomRestaurant.swift in Sources */,
 				0246341A1B38580600CA5EAC /* yelpAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,17 +374,6 @@
 			targetProxy = B22751861B2E0FE5000253AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B22751791B2E0FE5000253AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B227517A1B2E0FE5000253AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B227518D1B2E0FE5000253AB /* Debug */ = {
