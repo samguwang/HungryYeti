@@ -33,6 +33,7 @@
 		B25955F11B2F8EF800857FA0 /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EE1B2F8EF800857FA0 /* iphone4.png */; };
 		B25955F21B2F8EF800857FA0 /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955EF1B2F8EF800857FA0 /* iphone5.png */; };
 		B25955F41B2F928900857FA0 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B25955F31B2F928900857FA0 /* arrow.png */; };
+		F377C2353F69C24ED808F97F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B34E84932660F95DF68BB1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,9 @@
 		02EED6651B3368C8009E0572 /* YelpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpAPI.h; sourceTree = "<group>"; };
 		02EED6661B3368C8009E0572 /* YelpAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpAPI.m; sourceTree = "<group>"; };
 		02EED6691B336928009E0572 /* OAuthConsumer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OAuthConsumer; sourceTree = "<group>"; };
+		14B34E84932660F95DF68BB1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C14873E10A10F66913A0078 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		82A1792B9AD42AB93F35180C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B22751701B2E0FE5000253AB /* hungryyeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hungryyeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22751741B2E0FE5000253AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22751751B2E0FE5000253AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F377C2353F69C24ED808F97F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +104,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09AC502CE4744FB27C43F95F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82A1792B9AD42AB93F35180C /* Pods.debug.xcconfig */,
+				2C14873E10A10F66913A0078 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		878A0D5E24B84216B4CF23B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B34E84932660F95DF68BB1 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B22751671B2E0FE5000253AB = {
 			isa = PBXGroup;
 			children = (
 				B22751721B2E0FE5000253AB /* Hungry Yeti */,
 				B22751881B2E0FE5000253AB /* Hungry YetiTests */,
 				B22751711B2E0FE5000253AB /* Products */,
+				09AC502CE4744FB27C43F95F /* Pods */,
+				878A0D5E24B84216B4CF23B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B227518F1B2E0FE5000253AB /* Build configuration list for PBXNativeTarget "hungryyeti" */;
 			buildPhases = (
+				1475351190B731E7640595B7 /* Check Pods Manifest.lock */,
 				B227516C1B2E0FE5000253AB /* Sources */,
 				B227516D1B2E0FE5000253AB /* Frameworks */,
 				B227516E1B2E0FE5000253AB /* Resources */,
+				EAF30ABE9FE2C6EFB494CCCA /* Embed Pods Frameworks */,
+				3B8F57C101F07EEE323E1971 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,6 +317,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1475351190B731E7640595B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8F57C101F07EEE323E1971 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF30ABE9FE2C6EFB494CCCA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B227516C1B2E0FE5000253AB /* Sources */ = {
@@ -417,6 +492,7 @@
 		};
 		B22751901B2E0FE5000253AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A1792B9AD42AB93F35180C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -435,6 +511,7 @@
 		};
 		B22751911B2E0FE5000253AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C14873E10A10F66913A0078 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
