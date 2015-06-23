@@ -26,8 +26,12 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var address: UILabel!
     
+    @IBOutlet weak var businessCategories: UILabel!
+    
     @IBOutlet weak var bottomAddress: UILabel!
     var businesses: [Business]!
+    
+    var businessurl: NSURL!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +52,11 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func openYelp(sender: AnyObject) {
+        if(UIApplication.sharedApplication().canOpenURL(businessurl)){
+            UIApplication.sharedApplication().openURL(businessurl)
+        }
+    }
     
     
     func randRange (lower: Int , upper: Int) -> Int {
@@ -62,13 +71,14 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
         let str = "\(num)" + " Reviews"
         println(str)
         numReviews.text = str
-        
+        businessCategories.text = selected.categories!
         
         let splitAdd = selected.address!.componentsSeparatedByString(", ")
         address.text = splitAdd[0]
         bottomAddress.text = splitAdd[1]
-        
+        businessurl = selected.mobileUrl
         println("calling updateinfo")
+        println(selected.categories)
         
         //mapkit setup
         var span = MKCoordinateSpanMake(0.01, 0.01)

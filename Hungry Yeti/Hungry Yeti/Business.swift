@@ -20,6 +20,7 @@ class Business: NSObject {
     let categories: String?
     let distance: String?
     let ratingImageURL: NSURL?
+    let mobileUrl: NSURL?
     let reviewCount: NSNumber?
     
 
@@ -79,6 +80,13 @@ class Business: NSObject {
             distance = nil
         }
         
+        //link to Yelp MobileURL
+        let mobileURLString = dictionary["mobile_url"] as? String
+        if mobileURLString != nil {
+            mobileUrl = NSURL(string: mobileURLString!)
+        } else {
+            mobileUrl = nil
+        }
         
         //link to Yelp star rating url
         let ratingImageURLString = dictionary["rating_img_url_large"] as? String
