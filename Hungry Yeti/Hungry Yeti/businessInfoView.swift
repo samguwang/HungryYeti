@@ -103,7 +103,7 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
             self.businesses = businesses
             println("calling callAPI function")
             let top = businesses.endIndex
-            let ran = self.randRange(0, upper: 19)
+            let ran = self.randRange(0, upper: top)
             var selectedBusiness = businesses[ran]
             let businame = selectedBusiness.name!
             println(businame)
@@ -119,7 +119,6 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
     
     //locationmanager delegate function from CLLocationManager, called when user location updated
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
-        var i = 0
         println("callign locationmanager")
         println(locations[0])
         //store location in location variable of type CLLocation
@@ -133,12 +132,7 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
             
         }
         println(location.timestamp)
-        if(i == 0){
         passonLocation(location)
-        }
-        
-        ++i
-        println(i)
         
     }
     
