@@ -88,7 +88,7 @@ class Business: NSObject {
             ratingImageURL = nil
         }
         
-        reviewCount = dictionary["review_count"] as? NSNumber
+        reviewCount = dictionary["review_count"] as? Int
     }
     
     //function create dictionary of businesses

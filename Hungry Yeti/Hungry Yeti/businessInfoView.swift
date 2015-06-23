@@ -19,11 +19,14 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var businessName: UILabel!
    
+    @IBOutlet weak var numReviews: UILabel!
     
     @IBOutlet weak var starImage: UIImageView!
     @IBOutlet weak var map: MKMapView!
     
+    @IBOutlet weak var address: UILabel!
     
+    @IBOutlet weak var bottomAddress: UILabel!
     var businesses: [Business]!
     
     override func viewDidLoad() {
@@ -55,6 +58,15 @@ class businessInfoView: UIViewController, CLLocationManagerDelegate {
     func updateInfo(selected: Business, coord: CLLocationCoordinate2D){
         let name = selected.name!
         businessName.text = name
+        let num = selected.reviewCount!
+        let str = "\(num)" + " Reviews"
+        println(str)
+        numReviews.text = str
+        
+        
+        let splitAdd = selected.address!.componentsSeparatedByString(", ")
+        address.text = splitAdd[0]
+        bottomAddress.text = splitAdd[1]
         
         println("calling updateinfo")
         
